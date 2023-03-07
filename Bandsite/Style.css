@@ -1,0 +1,75 @@
+header {
+  background-color: rgb(201, 73, 73);
+  
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  padding:   32px;
+  letter-spacing: 2ch; 
+}
+
+header nav {
+  background-color: rgb(255, 255, 255);
+}
+
+nav li {
+  display: inline-block; /* list items komen naast elkaar te staan */
+}
+
+nav a {
+  display: block; /* anchor elementen kunnen zo grootte krijgen */
+  color: rgb(12, 9, 5);
+  padding: 24px;
+}
+
+nav a:hover {
+  background-color: rgb(161, 115, 184);
+  color: rgb(54, 54, 129);
+}
+
+/* vormgeving website en inhoud */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a0f1ff;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  line-height: 1.5;
+  margin: 0 12px;
+}
+
+main {
+  
+  padding: 16px ;
+}
+
+section {
+  min-height: 22vh;
+  padding: 32px 40px;
+}
+
+section * {
+  margin-bottom: 20px;
+}
+
+section p {
+  max-width: 70ch;
+}
+
+ li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: MidnightBlue;
+
+}
+
+
