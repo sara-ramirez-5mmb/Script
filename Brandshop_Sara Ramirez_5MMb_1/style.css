@@ -183,6 +183,8 @@ footer {
   .footer-text {
     text-align: center;
     margin-top: 10px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
 
@@ -191,6 +193,8 @@ footer {
   footer {
     background-color: rgb(255, 255, 255);
     padding: 20px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .footer-cols {
@@ -212,7 +216,7 @@ footer {
   }
   
   .subscribe input[type="email"] {
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 4px;
     margin-right: 10px;
@@ -226,6 +230,7 @@ footer {
     color: rgb(255, 255, 255);
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 5px;
   }
   
   .footer-text {
