@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -91,4 +92,99 @@ header {
     text-decoration: none;
   }
 
+=======
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+    
+    background-size: cover;
+    background-position: right;
+    
+  }
+  
+  h1 {
+    font-family: l;
+  }
+   
+  
+  header h1 {
+    text-align: center;
+    padding:   20px;
+    letter-spacing: 2ch; 
+    
+  }
+  
+    
+  
+  
+  nav li {
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 15px ;
+    padding: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+    
+    display: inline-block; /* list items komen naast elkaar te staan */
+  }
+  
+  nav a {
+  
+    display: block; /* anchor elementen kunnen zo grootte krijgen */
+    color: rgb(190, 130, 52);
+    font-family: L ; 
+    color: white;
+  
+    
+  }
+  
+  /* vormgeving website en inhoud */
+  
+
+  body {
+    background-color: #414c4e;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 0 ;
+  }
+  
+  main {
+    
+    background-image: url("images/1\ richting.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  section {
+    background-color: rgba(172, 172, 172, 0.404);
+    min-height: 22vh;
+    padding: 32px 40px;
+  }
+  
+  
+  section p {
+    max-width: 70ch;
+  }
+  
+   li a {
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: MidnightBlue;
+  
+  }
+  
+  #social a {
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+
+>>>>>>> 45ca9ba (brands)
  

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.utility {
+    justify-content: end;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 2;
+}
+
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #dddddd;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.header-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+   padding-right: 0%;
+}
+
+main {
+    margin-bottom: 4rem;
+}
+
+.row {
+	display: flex;
+    gap: 40px;
+}
+
+.col-3 {
+    flex: 1;
+    
+    text-align: centers;
+ 
+}
+
+.img-box {
+   
+    height: 18rem;
+    overflow: hidden;
+    border-radius: 18px;
+  
+}
+
+.kader {
+	width: 100%;
+	border: 2px solid #c80000;
+	padding: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+video {
+	width: 100%;
+    
+	
+}
+
+.btn {
+	background-color: #743d3d;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.btn.dames {
+	background-color: #e0e0e0;
+}
+
+
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+video {
+    width: 100%;
+}
+
+
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #ffffff;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    justify-content: right;
+}
+
+h3{
+
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
