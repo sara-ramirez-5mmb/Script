@@ -102,7 +102,7 @@ main {
 
 .kader {
 	width: 100%;
-	border: 2px solid #c80000;
+	border: 2px solid #000000;
 	padding: 20px;
 }
 
@@ -163,3 +163,77 @@ h3{
 p{
     color: #ffffff;
 }
+
+
+footer {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .footer-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+
+
+  footer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col {
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  .subscribe {
+    margin-bottom: 20px;
+  }
+  
+  .subscribe h3 {
+    margin-bottom: 10px;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 60%;
+  }
+  
+  .subscribe button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer-text {
+    text-align: center;
+    color: #000;    
+  }
+  
+  .footer-text a {
+    color: #000000;
+  }
+  
