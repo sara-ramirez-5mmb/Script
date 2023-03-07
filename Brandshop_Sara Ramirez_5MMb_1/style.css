@@ -180,12 +180,7 @@ footer {
     margin-right: 10px;
   }
   
-  .footer-text {
-    text-align: center;
-    margin-top: 10px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+
   
 
 
@@ -201,10 +196,12 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    color: #000;
   }
   
   .footer-col {
     flex-basis: calc(33.33% - 20px);
+    color: #000;
   }
   
   .subscribe {
