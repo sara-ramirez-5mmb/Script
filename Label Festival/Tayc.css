@@ -1,0 +1,97 @@
+
+
+
+header {
+    background-color: #161532;
+    
+}
+
+body {
+    background-color: #CACCCE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.utility {
+    justify-content: end;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #dddddd;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.header-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+img{
+width: 100%;
+
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 2rem;
+justify-items: center;
+}
+
+.grid-container img{
+aspect-ratio: 3 / 2;
+object-fit: cover;
+}
+
+.act{
+color: #dec8c8;
+background-color: rgb(190, 159, 159);    
+}
+.venue{
+    color: #9b8c8c`;
+}
+
+.date{
+    color: rgb(0, 0, 0);
+}
