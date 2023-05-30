@@ -1,6 +1,3 @@
-
-
-
 header {
     background-color: #161532;
     color: rgb(255, 255, 255);
@@ -23,7 +20,7 @@ body {
 }
 
 .logo img {
-    height: 50px;
+  width: 200px;
     
 }
 
