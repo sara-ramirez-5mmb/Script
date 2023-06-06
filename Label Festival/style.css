@@ -71,6 +71,10 @@ width: 100%;
 
 }
 
+section {
+    margin-bottom: 4rem;
+}
+
 .grid-container{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -96,4 +100,9 @@ background-color: #161532;
 }
 .venue{
     color: #000000;
+}
+.footer{
+    background-color: #161532;
+    color: rgb(255, 255, 255);
+
 }
