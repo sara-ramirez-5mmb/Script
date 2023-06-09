@@ -3,7 +3,9 @@ header {
     color: rgb(255, 255, 255);
     
 }
-
+header input#burger{
+    display: none;
+}
 body {
     background-color: #CACCCE;
 }
