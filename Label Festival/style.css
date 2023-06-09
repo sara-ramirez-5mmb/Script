@@ -106,3 +106,10 @@ background-color: #161532;
     color: rgb(255, 255, 255);
 
 }
+
+
+@media (width <=750px) {
+    #line-up .grid-container{
+        grid-template-columns: 1fr;
+    }
+    }
