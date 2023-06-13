@@ -132,17 +132,6 @@ background-color: #161532;
     display: block;
     }
 
-    header nav ul {
-position: absolute;
-z-index: 3;
-top: 4rem;
-right: 1rem;
-background-color: var(--bgc-02);
-text-align: right;
-user-select: none;
-display: none;
-
-    }
 
 header input#burger:checked+label[for="burger"]+nav ul{
     display: flex;
