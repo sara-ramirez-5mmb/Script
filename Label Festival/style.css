@@ -6,6 +6,18 @@ header {
 header input#burger{
     display: none;
 }
+header label[for="burger"]{
+    z-index: 3;
+    padding: 1rem 1ch;
+    text-align: right;
+    cursor: pointer;
+    display: none;
+
+}
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 2rem;
+}
 body {
     background-color: #CACCCE;
 }
@@ -115,3 +127,15 @@ background-color: #161532;
         grid-template-columns: 1fr;
     }
     }
+
+    header label [for="burger"]{
+    display: block;
+    }
+
+header input#burger : :checked+label[for="burger"]+nav ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #161532;;
+    position: sticky;
+
+}
